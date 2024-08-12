@@ -1,0 +1,52 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(#4ba9e9 0, #42225c 30%, #da3b3b 80%, #fff 100%);
+	min-height: 100vh;
+}
+
+.form{
+    width: 280px;
+    padding: 32px;
+    border-radius: 10;
+    box-shadow: 0 4px 20px #ccc;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.card .imgBx {
+	position: relative;
+	min-width: 300px;
+	height: 100%;
+    border-radius: 10;
+	background: #973939;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
+}
+
+.form__input{
+    width: 100%;
+    padding: 0 0 10px 0;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.4s ease;
+}
